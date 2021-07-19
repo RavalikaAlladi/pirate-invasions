@@ -15,7 +15,7 @@ function setup(){
     engine = Engine.create();
     world = engine.world;
    
-    tower = new Tower(200,350,200,500);
+    tower = new Tower(150,300,200,500);
     ground = new Ground(width/2, height-1, width, 1);
     
 }
